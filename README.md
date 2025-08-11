@@ -60,29 +60,6 @@ python app.py
 ```
 
 
-## 📸 Screenshots
-
-### 1. Application Main Interface
-
-![Main Interface](image_link_here)
-
-### 2. Adding a Record
-
-![Add Record](image_link_here)
-
-### 3. Viewing Records in Table
-
-![View Records](image_link_here)
-
-### 4. Editing a Record
-
-![Edit Record](image_link_here)
-
-### 5. Dark Mode Interface
-
-![Dark Mode](image_link_here)
-
-
 ## 📜 Output Explanation
 
 The application provides a form to enter **Name**, **Age**, and **Course**.
