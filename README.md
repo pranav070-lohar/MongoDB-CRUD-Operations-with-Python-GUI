@@ -38,28 +38,6 @@ The objective of this project is to design and implement a modern desktop applic
 * Responsive and modern UI with light/dark mode support
 
 
-## 🚀 How to Run
-
-1. **Clone the Repository**
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
-2. **Install Dependencies**
-
-```bash
-pip install customtkinter pymongo
-```
-
-3. **Run the Application**
-
-```bash
-python app.py
-```
-
-
 ## 📜 Output Explanation
 
 The application provides a form to enter **Name**, **Age**, and **Course**.
