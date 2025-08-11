@@ -1,14 +1,15 @@
 # MongoDB-CRUD-Operations-with-Python-GUI
 
-# MongoDB CRUD Operations with Python GUI
 
 ## 📌 Problem Statement
 
 The goal of this project is to develop a graphical user interface (GUI) application that performs CRUD (Create, Read, Update, Delete) operations on a MongoDB database. The application should allow users to manage student records in an intuitive and user-friendly manner.
 
+
 ## 🎯 Objective
 
 The objective of this project is to design and implement a modern desktop application that enables seamless interaction with a MongoDB database. This will help users to efficiently insert, retrieve, update, and delete records while maintaining a clean and modern user interface.
+
 
 ## 💻 Software and Hardware Requirements
 
@@ -27,6 +28,7 @@ The objective of this project is to design and implement a modern desktop applic
 * **PyMongo** – MongoDB driver for Python
 * **MongoDB** – NoSQL database for storing student data
 
+
 ## ✨ Features
 
 * Add new student records to MongoDB
@@ -34,6 +36,7 @@ The objective of this project is to design and implement a modern desktop applic
 * Update existing records
 * Delete records
 * Responsive and modern UI with light/dark mode support
+
 
 ## 🚀 How to Run
 
@@ -55,6 +58,7 @@ pip install customtkinter pymongo
 ```bash
 python app.py
 ```
+
 
 ## 📸 Screenshots
 
@@ -78,6 +82,7 @@ python app.py
 
 ![Dark Mode](image_link_here)
 
+
 ## 📜 Output Explanation
 
 The application provides a form to enter **Name**, **Age**, and **Course**.
@@ -89,6 +94,7 @@ Users can:
 * Delete them easily
 
 The **Treeview widget** is used for displaying data in a structured way. Clicking on a row loads the data into the form for editing. **CustomTkinter** provides a clean and modern interface for the GUI.
+
 
 ## ✅ Conclusion
 
