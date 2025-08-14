@@ -120,7 +120,8 @@ btn_frame.pack(pady=5)
 ctk.CTkButton(btn_frame, text="Add", command=insert_data, fg_color="green").grid(row=0, column=0, padx=10, pady=5)
 ctk.CTkButton(btn_frame, text="Update", command=update_data, fg_color="blue").grid(row=0, column=1, padx=10, pady=5)
 ctk.CTkButton(btn_frame, text="Delete", command=delete_data, fg_color="red").grid(row=0, column=2, padx=10, pady=5)
-ctk.CTkButton(btn_frame, text="Clear", command=clear_fields, fg_color="gray").grid(row=0, column=3, padx=10, pady=5)
+ctk.CTkButton(btn_frame, text="Read", command=fetch_data, fg_color="orange").grid(row=0, column=3, padx=10, pady=5)  # New Read Button
+ctk.CTkButton(btn_frame, text="Clear", command=clear_fields, fg_color="gray").grid(row=0, column=4, padx=10, pady=5)
 
 # Table
 tree_frame = ctk.CTkFrame(root)
@@ -139,3 +140,4 @@ tree.bind("<<TreeviewSelect>>", select_record)
 fetch_data()
 
 root.mainloop()
+
